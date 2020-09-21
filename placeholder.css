@@ -76,17 +76,24 @@ a {
     background:purple;
     color:rgb(233, 217, 238);
 }
-.link:hover + .sou-nav-list ,
-.link:focus + .sou-nav-list  {
-    pointer-events: initial;
-    opacity:1;
-}
-.sou-nav-list:hover ,
-.sou-nav-list:focus {
-    pointer-events: initial;
-    opacity:1;
-}
 
+
+/*-------*/
+.link {
+    background:transparent !important;
+    color:rgb(29, 25, 46) !important;
+    padding-bottom:-1rem;
+    border-bottom: 2px solid transparent;
+    border-radius:0px !important;
+}
+.link:hover,
+.link:focus {
+    background:transparent !important;
+    color:rgb(29, 25, 46) !important;
+    padding-bottom:-1rem;
+    border-bottom: 2px solid purple;
+    border-radius:0px !important;
+}
 .sou-nav-list {
     position: absolute;
     top:75%;
@@ -101,6 +108,19 @@ a {
 .sou-nav-list li {
     margin:1.5rem 0
 }
+.link:hover + .sou-nav-list ,
+.link:focus + .sou-nav-list  {
+    pointer-events: initial;
+    opacity:1;
+
+}
+.sou-nav-list:hover ,
+.sou-nav-list:focus {
+    pointer-events: initial;
+    opacity:1;
+}
+
+/*---------*/
 
 
 
