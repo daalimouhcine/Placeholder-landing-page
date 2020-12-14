@@ -1,3 +1,3 @@
 # I-landing-page
 
-https://daalimouhcine.github.io/I-landing-page/placeholder.html
+https://placeholder-landing.netlify.app/placeholder.html
